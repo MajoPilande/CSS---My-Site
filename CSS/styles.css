@@ -5,23 +5,31 @@ body {
 }
 
 h1 {
-    color: #8CC0DE;
     line-height: 2;
     margin-bottom: 25px;
     margin-top: 50px;
     margin: 0 auto 0 auto;
     text-align: center;
+    color:#8CC0DE;
 }
 
 h2 {
-    color: #8CC0DE;
     font-weight: normal;
     margin: 0 auto 0 auto;
     text-align: center;
+    color:#8CC0DE;
+}
+
+h1.profileH1{
+    color:#E77373;
+}
+
+h2.profileH2{
+    color:#E77373;
 }
 
 h3 {
-    color: #8CC0DE;
+    color:#8CC0DE;
 }
 
 a {
@@ -30,18 +38,22 @@ a {
 
 hr{
     width: 10%;
-    border-top: 5px dotted #F4BFBF;
+    border-style: dotted none none;
+    border-color: #F4BFBF;
+    border-width: 5px;
 }
 
 .topContainer {
-    background-color: #F4BFBF;
+    background-color: #FCEEEE;
     background-position: center;
     padding-top: 100px;
     position: relative;
+    color: #E77373;
 }
 
 .middle-container {
     background-color: #FAF0D7;
+    
 }
 
 .profile{
@@ -54,7 +66,8 @@ hr{
 }
 
 .bottom-container {
-    background-color: #FAF0D7;
+    background-color: #FCEEEE;
+    padding: 50px;
 }
 
 .topCloud {
@@ -103,3 +116,48 @@ hr{
 .skill-row {
     padding-bottom: 50px;
 }
+
+.contact-me{
+    padding: 100px;
+    text-align: center;
+    width: auto;
+}
+
+.footer-links{
+    word-spacing: 50px;
+}
+
+.credits{
+    font-size: xx-small;
+}
+
+.btn {
+    background: #8CC0DE;
+    background-image: -webkit-linear-gradient(top, #c0dced, #70afd7);
+    background-image: -moz-linear-gradient(top, #c0dced, #70afd7);
+    background-image: -ms-linear-gradient(top, #c0dced, #70afd7);
+    background-image: -o-linear-gradient(top, #c0dced, #70afd7);
+    background-image: linear-gradient(to bottom, #c0dced, #70afd7);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  .btn-contact{
+    padding-top: 20px;
+  }
