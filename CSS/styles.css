@@ -1,0 +1,105 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #8CC0DE;
+    line-height: 2;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+h2 {
+    color: #8CC0DE;
+    font-weight: normal;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+h3 {
+    color: #8CC0DE;
+}
+
+a {
+    color: #8CC0DE;
+}
+
+hr{
+    width: 10%;
+    border-top: 5px dotted #F4BFBF;
+}
+
+.topContainer {
+    background-color: #F4BFBF;
+    background-position: center;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container {
+    background-color: #FAF0D7;
+}
+
+.profile{
+    padding: 40px 0 20px 0;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    line-height: 2;
+    padding: 100px;
+}
+
+.bottom-container {
+    background-color: #FAF0D7;
+}
+
+.topCloud {
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+
+.bottomCloud {
+    bottom: 300px;
+    left: 400px;
+    position: absolute;
+}
+
+.mountain {
+    opacity: 0.7;
+    position: relative;
+    margin-bottom: -3px;
+}
+
+.myphoto {
+    border-radius: 50%;
+    width: 150px;
+    padding: 0 0 20px 0;
+}
+
+.skills {
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.skill1 {
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.skills2 {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.skill-row {
+    padding-bottom: 50px;
+}
